@@ -62,8 +62,14 @@ body {
     font-size: 36px;
     margin-left: 50px;
   }
-  
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
+
+  @media screen 
+and (min-width : 414px) 
+and (max-width : 736px)
+and (-webkit-device-pixel-ratio : 3)
+and (orientation: portrait)
+{   
+  #x-section-1 {
+    margin-top: 274px!important; 
+  }                
+}
