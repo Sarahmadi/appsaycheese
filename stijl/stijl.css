@@ -4,22 +4,30 @@ body {
     max-width:100%;
   }
 
+h1 {
+  text-align: center;
+}
+
  h2 {
    background-color: #F8D2E5;
-   padding: 10px 10px 10px 10px;
-   width: 10em;
-   align-content: center;
+   padding: 10px 10px 10px 50px;
+   text-align: center;
  }
 
  p {
    color: white;
    margin: 10px;
    padding: 10px;
+   text-align: center;
+ }
+
+ .header {
+   width: 500px;
  }
 
   .button {
     background-color: #F8D2E5;
-    color: #818181;;
+    color: black;;
     padding: 15px 30px;
     text-align: center;
     text-decoration: none;
