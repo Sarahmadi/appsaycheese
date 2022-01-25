@@ -1,8 +1,7 @@
 body {
     font-family: "Lato", sans-serif;
     background-color: #ff81cb;
-    max-width:20em;
-    margin:0 auto;
+    max-width:100%;
   }
 
  h2 {
@@ -62,14 +61,3 @@ body {
     font-size: 36px;
     margin-left: 50px;
   }
-
-  @media screen 
-and (min-width : 414px) 
-and (max-width : 736px)
-and (-webkit-device-pixel-ratio : 3)
-and (orientation: portrait)
-{   
-  #x-section-1 {
-    margin-top: 274px!important; 
-  }                
-}
