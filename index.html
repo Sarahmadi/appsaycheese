@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stijl/stijl.css">
+    <title>SAY CHEESE</title>
+</head>
+
+<body>
+    <header>
+        <img class="header" src="images/moco.jpg" alt="Foto Moco Museum Amsterdam">
+    </header>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">HOME</a>
+        <a href="start.html">CHALLENGE</a>
+        <a href="vrienden.html">FRIENDS</a>
+        <a href="ontdek.html">DISCOVER</a>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+    <main>
+        <h1>TODAYS CHALLENGE</h1>
+        <h2>24-08-2022 12:22</h2>
+        <p>Welcome back Sarah! Todays photography challenge is all about art!
+            Amsterdam is a creative and innovative city, with a lot of artists.
+            Take a walk around the city and look around, everything can be seen as art if you want it to.
+            You can go to your favorite museum, but art is a very broad term, so don't be afraid to think outside the
+            box.
+            Be creative and show us your favorite piece of art in Amsterdam, tell us a bit about the place (and the
+            artist) too.
+            Keep your eyes open and stay alert, don't miss the small details!
+            Goodluck and have fun today! :)
+        </p>
+        <button class="button" type="button"><a href="start.html">START</a></button>
+    </main>
+
+    <footer>
+    </footer>
+
+</body>
+
+</html>

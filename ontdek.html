@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stijl/stijl.css">
+    <title>SAY CHEESE</title>
+</head>
+
+<body>
+    <header>
+        <img class="header" src="images/moco.jpg" alt="Foto Moco Museum Amsterdam">
+    </header>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">HOME</a>
+        <a href="start.html">CHALLENGE</a>
+        <a href="vrienden.html">FRIENDS</a>
+        <a href="ontdek.html">DISCOVER</a>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+    <main>
+        <h1>DISCOVER</h1>
+        <p>Look at all these wonderful pictures from todays challenge!
+            Today is all about art, that can be seen in these pictures!
+        </p>
+        <img class="ontdek" src="images/schilderijen.jpg" alt="Foto in het Moco Museum">
+        <img class="ontdek" src="images/knoop.jpg" alt="Foto in het Moco Museum">
+    </main>
+
+    <footer>
+    </footer>
+
+    </body>
+    </html>
