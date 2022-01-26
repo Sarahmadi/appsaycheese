@@ -1,0 +1,137 @@
+body {
+    font-family: "seravek", sans-serif;
+    background-color: #ff81cb;
+    max-width:100%;
+  }
+
+h1 {
+  font-family: "avenir next", sans-serif;
+  text-align: center;
+}
+
+ h2 {
+   background-color: #F8D2E5;
+   padding: 10px 10px 10px 10px;
+   text-align: center;
+   margin: auto;
+ }
+
+ p {
+   color: white;
+   margin: 10px;
+   padding: 10px;
+   text-align: center;
+ }
+
+ .header {
+   width: 300px;
+   margin: auto;
+   display: flex;
+ }
+
+ .hoekje {
+  width: 100px;
+  float: right;
+ }
+
+ .hoekje2 {
+  width: 100px;
+  float: left;
+ }
+
+ .art {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ }
+
+  .button {
+    background-color: black;
+    color: #ff81cb;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 25px;
+    padding: 15px 5px;
+    box-shadow: 7px 5px 7px grey;
+    border-radius: 5px;
+  }
+
+  .button2 {
+    background-color: black;
+    color: #ff81cb;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    padding: 15px 5px;
+    box-shadow: 7px 5px 7px grey;
+    border-radius: 5px;
+  }
+
+  .button3 {
+    background-color: black;
+    color: #ff81cb;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    padding: 15px 5px;
+    box-shadow: 7px 5px 7px grey;
+    border-radius: 5px;
+  }
+
+  .ontdek {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 3px;
+  }
+
+  .vrienden {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 3px;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#EDE4DD;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
