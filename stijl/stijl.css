@@ -24,9 +24,26 @@ h1 {
  }
 
  .header {
-   width: 500px;
+   width: 300px;
    margin: auto;
    display: flex;
+ }
+
+ .hoekje {
+  width: 100px;
+  float: right;
+ }
+
+ .hoekje2 {
+  width: 100px;
+  float: left;
+ }
+
+ .art {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
  }
 
   .button {
@@ -38,6 +55,10 @@ h1 {
     display: inline-block;
     font-size: 20px;
     box-shadow: 5px 5px 5px grey;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 
   .ontdek {
