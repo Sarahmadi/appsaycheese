@@ -1,17 +1,19 @@
 body {
-    font-family: "Lato", sans-serif;
+    font-family: "seravek", sans-serif;
     background-color: #ff81cb;
     max-width:100%;
   }
 
 h1 {
+  font-family: "avenir next", sans-serif;
   text-align: center;
 }
 
  h2 {
    background-color: #F8D2E5;
-   padding: 10px 10px 10px 50px;
+   padding: 10px 10px 10px 10px;
    text-align: center;
+   margin: auto;
  }
 
  p {
@@ -23,6 +25,8 @@ h1 {
 
  .header {
    width: 500px;
+   margin: auto;
+   display: flex;
  }
 
   .button {
@@ -35,7 +39,13 @@ h1 {
     font-size: 20px;
     box-shadow: 5px 5px 5px grey;
   }
-  
+
+  .ontdek {
+    display: flex;
+    margin: auto;
+    padding: 5px;
+  }
+
   .sidenav {
     height: 100%;
     width: 0;
