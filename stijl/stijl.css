@@ -143,7 +143,7 @@ h1 {
     margin: auto;
   }
   #divSelfie {
-    display:none;
+    display:flex;
   }
   #pickImage {
     display:none;
